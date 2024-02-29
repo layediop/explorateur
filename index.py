@@ -2,7 +2,7 @@ import pandas as pd
 import networkx as nx
 
 # Charger le DataFrame
-explorer_df = pd.read_csv("./parcours_explorateurs.csv")
+explorer_df = pd.read_csv("C:/Users/layed/Downloads/rendu_explorateur/rendu_explorateus/parcours_explorateurs.csv")
 
 # Initialiser les listes à l'extérieur de la boucle
 array_starting_node = explorer_df[explorer_df["type_aretes"] == "depart"]["noeud_amont"].values
